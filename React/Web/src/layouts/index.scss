@@ -1,0 +1,29 @@
+@import '@/theme.scss';
+
+.normal {
+    min-height: 100vh;
+
+    .Sider {
+        width: 254px !important;
+        max-width: 254px !important;
+        flex: 0 0 254px !important;
+        background: #fff;
+        height: calc(100vh - 70px);
+        overflow-y: auto;
+    }
+
+    .header {
+        background: $bg-color;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content {
+        width: calc(100vw - 254px) !important;
+        height: calc(100vh - 70px) !important;
+        padding: 24px;
+    }
+
+}

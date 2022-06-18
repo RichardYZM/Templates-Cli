@@ -1,0 +1,27 @@
+$bg-color:#1989FA;
+
+.w240 {
+    width: 240px !important;
+}
+
+.w280 {
+    width: 280px !important;
+}
+
+.wFull {
+    width: 100% !important;
+}
+
+.tr {
+    text-align: right;
+}
+
+.formItem {
+    .input {
+        border-radius: 4px;
+
+        .ant-select-selector {
+            border-radius: 4px;
+        }
+    }
+}
